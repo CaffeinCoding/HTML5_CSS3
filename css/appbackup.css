@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* 상단 header */
+  /* .header {
+  } */
+  /* .nav {
+  } */
+  #logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: left;
+  }
+  .menu {
+    text-align: right;
+    vertical-align: bottom;
+  }
+  .menu li {
+    display: inline;
+  }
+  /* .menu-item {
+  } */
+  
+  /* 중앙 content */
+  .content {
+    align-items;
+  }
+  
+  /* 중앙 left content */
+  .content-left {
+  }
+  .content-left-profile {
+    border: 1px solid;
+  }
+  /* .content-left-poll-btn {
+  } */
+  /* #btn-makepoll {
+  } */
+  .content-left-poll {
+    border: 1px solid;
+  }
+  /* .poll-title {
+  } */
+  /* .poll-question {
+  } */
+  /* .poll-answer {
+  } */
+  /* .poll-btn {
+  } */
+  /* .button {
+  } */
+  /* .btn-primary {
+  } */
+  /* .poll-date {
+  } */
+  
+  /* 중앙 section content */
+  /* .content-section {
+  } */
+  .content-section-article {
+    border: 1px solid;
+  }
+  
+  /* 하단 footer */
+  .footer {
+    text-align: right;
+  }
+  .footer ul li {
+    display: inline;
+  }
+  

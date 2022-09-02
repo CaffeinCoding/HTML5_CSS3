@@ -1,51 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
 /* 상단 header */
 .header {
+  height: 80px;
+  box-shadow: 0px 1px 10px rgba(100, 100, 100, 0.5);
 }
 .nav {
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  height: 80px;
 }
 #logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: blueviolet;
+  float: left;
+  margin-left: 20px;
+  height: 80px;
+  line-height: 80px;
 }
 .menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.menu > li {
+  float: left;
+  margin-left: 10px;
 }
 .menu-item {
+}
+.menu-item:hover {
+  color: blueviolet;
+  font-weight: bold;
 }
 
 /* 중앙 content */
 .content {
+  max-width: 1200px;
+  margin: 5px auto;
 }
 
 /* 중앙 left content */
 .content-left {
+  width: 25%;
+  float: left;
 }
 .content-left-profile {
+  height: 180px;
+  text-align: center;
+}
+.content-left-profile > img {
+  height: 170px;
+  margin: 5px auto;
 }
 .content-left-poll-btn {
+  text-align: center;
+  margin: 10px auto;
+  display: none;
 }
 #btn-makepoll {
+  width: 150px;
+  background-color: darkcyan;
+  border-color: blue;
+  color: wheat;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
 }
 .content-left-poll {
+  border: 2px solid steelblue;
+  border-radius: 10px;
+  padding: 5px;
+  min-height: 250px;
+  margin-left: 5px;
+  color: gray;
+  font-size: 16px;
 }
 .poll-title {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .poll-question {
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
 }
 .poll-answer {
+  margin: 10px;
+}
+.poll-answer > ul > li {
+  margin-bottom: 5px;
 }
 .poll-btn {
+  text-align: right;
 }
 .button {
+  margin-left: 5px;
+  padding: 3px;
+  background-color: whitesmoke;
+  border: 1px solid black;
 }
 .btn-primary {
+  background-color: blueviolet;
+  color: aliceblue;
 }
 .poll-date {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* 중앙 section content */
 .content-section {
+  width: 75%;
+  float: right;
 }
 .content-section-article {
+  margin: 5px 10px;
+  padding: 5px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  max-width: 900px;
+  height: 140px;
 }
 
 /* 하단 footer */
 .footer {
+  clear: both;
+  margin: 20px auto;
+  max-width: 1200px;
+  height: 50px;
+}
+.footer > ul > li {
+  float: right;
+  line-height: 50px;
+  margin-right: 10px;
+  font-size: 13px;
 }
